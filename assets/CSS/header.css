@@ -1,0 +1,7 @@
+.header__navigation--bar{
+    width: 100vw;
+}
+
+.header__navigation--container{
+    display: flex;
+}
