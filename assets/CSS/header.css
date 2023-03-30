@@ -1,7 +1,15 @@
 .header__navigation--bar{
     width: 100vw;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .header__navigation--container{
+    width: 100vw;
+    height: 72px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
