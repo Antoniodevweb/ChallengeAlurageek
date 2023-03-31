@@ -1,0 +1,8 @@
+.banner__container{
+    width: 328px;
+    height: 98px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}

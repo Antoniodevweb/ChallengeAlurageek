@@ -1,0 +1,9 @@
+.banner__description{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--origin-white);
+    width: 328px;
+    height: 23px;
+}

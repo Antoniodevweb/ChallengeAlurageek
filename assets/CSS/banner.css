@@ -1,0 +1,11 @@
+.banner{
+    width: 100vw;
+    background: url(/assets/img/banner.png) no-repeat center;
+    background-size: cover;
+    height: 192px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+}

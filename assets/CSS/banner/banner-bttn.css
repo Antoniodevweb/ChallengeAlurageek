@@ -1,0 +1,14 @@
+.banner_bttn{
+    display: flex;
+    color: var(--origin-white);
+    padding: 3px 4px;
+    background: var(--color-blue);
+    font-family: var(--base-font);
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid;
+    width: 136px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+}

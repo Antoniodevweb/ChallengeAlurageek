@@ -4,4 +4,6 @@
     font-family: var(--base-font);
     font-weight: 600;
     color: var(--color-blue);
+    border-radius: 10px;
+    border: 1px solid;
 }
