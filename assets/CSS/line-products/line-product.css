@@ -1,0 +1,7 @@
+.line__product{
+    width: 91vw;
+    height: 692px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}

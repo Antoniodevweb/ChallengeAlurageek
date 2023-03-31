@@ -1,0 +1,8 @@
+.product__container{
+    width: 90vw;
+    height: 301px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

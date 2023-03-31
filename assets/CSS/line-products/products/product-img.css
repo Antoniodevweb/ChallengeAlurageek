@@ -1,0 +1,11 @@
+.product__img--container{
+    width: 156px;
+    height: 174px;
+}
+
+.product__img{
+    width: 156px;
+    height: 174px;
+    object-fit: cover;
+    overflow: hidden;
+}

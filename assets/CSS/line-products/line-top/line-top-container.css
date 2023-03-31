@@ -1,0 +1,6 @@
+.line__top--container{
+    width: 90vw;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+}
