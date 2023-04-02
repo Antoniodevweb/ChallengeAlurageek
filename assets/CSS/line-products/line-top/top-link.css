@@ -1,6 +1,10 @@
-.product__link{
+.line__top_link{
     text-decoration: none;
     font-family: var(--base-font);
     font-weight: 700;
+    color: var(--color-blue);
+}
+
+.fas{
     color: var(--color-blue);
 }

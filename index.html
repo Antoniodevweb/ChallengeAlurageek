@@ -20,12 +20,8 @@
     <link rel="stylesheet" href="/assets/CSS/banner/banner-container.css">
     <link rel="stylesheet" href="/assets/CSS/line-products/line-product.css">
     <link rel="stylesheet" href="/assets/CSS/line-products/line-top/line-top-container.css">
-    <link rel="stylesheet" href="/assets/CSS/line-products/line-top/top-1/top-title-1.css">
-    <link rel="stylesheet" href="/assets/CSS/line-products/line-top/top-1/top-link-1.css">
-    <link rel="stylesheet" href="/assets/CSS/line-products/line-top/top-2/top-title-2.css">
-    <link rel="stylesheet" href="/assets/CSS/line-products/line-top/top-2/top-link-2.css">
-    <link rel="stylesheet" href="/assets/CSS/line-products/line-top/top-3/top-title-3.css">
-    <link rel="stylesheet" href="/assets/CSS/line-products/line-top/top-3/top-link-3.css">
+    <link rel="stylesheet" href="/assets/CSS/line-products/line-top/top-link.css">
+    <link rel="stylesheet" href="/assets/CSS/line-products/line-top/top-title.css">
     <link rel="stylesheet" href="/assets/CSS/line-products/products/product-container.css">
     <link rel="stylesheet" href="/assets/CSS/line-products/products/product-box.css">
     <link rel="stylesheet" href="/assets/CSS/line-products/products/product-img.css">
@@ -55,8 +51,11 @@
         </div>
         <div class="line__product">
             <div class="line__top--container">
-                <h2 class="line__top--title-1">Star Wars</h2>
-                <a class="line__top_link--1" href="#">Ver todo</a>
+                <h2 class="line__top--title">Star Wars</h2>
+                <div class="line__top--container-link">
+                    <a class="line__top_link" href="#">Ver todo</a>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
             </div>
             <div class="product__container">
                 <div class="product__box">
@@ -72,7 +71,7 @@
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                     </ul>
-                    <a href="#">Ver producto</a>
+                    <a class="product__link" href="#">Ver producto</a>
                 </div>
                 <div class="product__box" >
                     <img class="product__img" src="/assets/img/lego-darth-vader-hover.jpg" alt="lego-darth-vader">
@@ -85,7 +84,7 @@
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                     </ul>
-                    <a href="#">Ver producto</a>
+                    <a class="product__link" href="#">Ver producto</a>
                 </div>
                 <div class="product__box" >
                     <img class="product__img" src="/assets/img/mandalorian-helmet-hover.jpg" alt="Mandalorian">
@@ -98,7 +97,7 @@
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                     </ul>
-                    <a href="#">Ver producto</a>
+                    <a class="product__link" href="#">Ver producto</a>
                 </div>
                 <div class="product__box" >
                     <img class="product__img" src="/assets/img/grogu-hasbro-img-hover.jpg" alt="grogu-hasbro">
@@ -111,14 +110,17 @@
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                     </ul>
-                    <a href="#">Ver producto</a>
+                    <a class="product__link" href="#">Ver producto</a>
                 </div>
             </div>
         </div>
         <div class="line__product">
             <div class="line__top--container">
-                <h2 class="line__top--title-1">Consolas</h2>
-                <a class="line__top_link--1" href="#">Ver todo</a>
+                <h2 class="line__top--title">Consolas</h2>
+                <div class="line__top--container-link">
+                    <a class="line__top_link" href="#">Ver todo</a>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
             </div>
             <div class="product__container">
                 <div class="product__box">
@@ -134,7 +136,7 @@
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                     </ul>
-                    <a href="#">Ver producto</a>
+                    <a class="product__link" href="#">Ver producto</a>
                 </div>
                 <div class="product__box" >
                     <img class="product__img" src="/assets/img/producto-006.png" alt="Playstation">
@@ -147,7 +149,7 @@
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                     </ul>
-                    <a href="#">Ver producto</a>
+                    <a class="product__link" href="#">Ver producto</a>
                 </div>
                 <div class="product__box" >
                     <img class="product__img" src="/assets/img/producto-007.png" alt="SuperNintendo">
@@ -160,7 +162,7 @@
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                     </ul>
-                    <a href="#">Ver producto</a>
+                    <a class="product__link" href="#">Ver producto</a>
                 </div>
                 <div class="product__box" >
                     <img class="product__img" src="/assets/img/producto-008.png" alt="Nintendo Switch">
@@ -173,12 +175,79 @@
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                         <li class="product__stars"><i class="fa fa-star checked"></i></li>
                     </ul>
-                    <a href="#">Ver producto</a>
+                    <a class="product__link" href="#">Ver producto</a>
+                </div>
+            </div>
+        </div>
+        <div class="line__product">
+            <div class="line__top--container">
+                <h2 class="line__top--title">Diversos</h2>
+                <div class="line__top--container-link">
+                    <a class="line__top_link" href="#">Ver todo</a>
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="product__container">
+                <div class="product__box">
+                    <div class="product__img--container">
+                        <img class="product__img" src="/assets/img/producto-009.png" alt="camisa Atari">
+                    </div>
+                    <h2 class="product__title">Camisa Atari</h2>
+                    <h6 class="product__price">280 MXN</h6>
+                    <ul class="product__stars--container">
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                    </ul>
+                    <a class="product__link" href="#">Ver producto</a>
+                </div>
+                <div class="product__box" >
+                    <img class="product__img" src="/assets/img/producto-010.png" alt="Camisa SNES">
+                    <h2 class="product__title">Camisa SNES</h2>
+                    <h6 class="product__price">269 MXN</h6>
+                    <ul class="product__stars--container">
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                    </ul>
+                    <a class="product__link" href="#">Ver producto</a>
+                </div>
+                <div class="product__box" >
+                    <img class="product__img" src="/assets/img/producto-011.png" alt="Figura Sonic">
+                    <h2 class="product__title">Figura Sonic</h2>
+                    <h6 class="product__price">600 MXN</h6>
+                    <ul class="product__stars--container">
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                    </ul>
+                    <a class="product__link" href="#">Ver producto</a>
+                </div>
+                <div class="product__box" >
+                    <img class="product__img" src="/assets/img/product-012.png" alt="Radio Antigua">
+                    <h2 class="product__title">Reliquia Antigua</h2>
+                    <h6 class="product__price">900 MXN</h6>
+                    <ul class="product__stars--container">
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
+                    </ul>
+                    <a class="product__link" href="#">Ver producto</a>
                 </div>
             </div>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+        <h1>hola soy footer</h1>
+    </footer>
     <script type="module" src="script.js"></script>
 </body>
 </html>
