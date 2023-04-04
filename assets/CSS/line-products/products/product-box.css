@@ -1,4 +1,7 @@
 .product__box{
     width: 156px;
     height: 301px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
