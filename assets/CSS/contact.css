@@ -1,0 +1,8 @@
+.contact__form{
+    width: 392px;
+    background: var(--grey);
+}
+
+.contact__form-img{
+    display: none;
+}

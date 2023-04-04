@@ -1,0 +1,21 @@
+.contact__text-container{
+    width: 296px;
+    margin-bottom: 1rem;
+}
+
+
+.contact__title{
+    font-family: var(--base-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.contact__text{
+    font-family: var(--base-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    width: 296px;
+}

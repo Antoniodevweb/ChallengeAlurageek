@@ -1,0 +1,14 @@
+.contact__label{
+    position: absolute;
+    top: 20px;
+    background: var(--origin-white);
+    padding: 0 .5rem;
+    color: var(--grey-50);
+}
+
+.contact__label-textArea{
+    position: absolute;
+    top: 60px;
+    padding: 0 .5rem;
+    color: var(--grey-50);
+}

@@ -1,0 +1,19 @@
+.contact__items:focus+.contact__label{
+    transform: translateY(-1rem);
+    transition: .5s;
+    font-size: 13px;
+    color: var(--color-blue);
+   
+}
+
+.contact__textarea:focus+.contact__label-textArea{
+    display: none;
+}
+
+.contact__items:focus{
+    border-bottom: 1px solid var(--color-blue);
+}
+
+.contact__textarea:focus{
+    border-bottom: 1px solid var(--color-blue);
+}
