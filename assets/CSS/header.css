@@ -13,3 +13,13 @@
     justify-content: space-around;
     align-items: center;
 }
+
+@media screen and (max-width: 768px){
+    .header__navigation{
+        order: 2;
+    }
+
+    .header__bttn{
+        order: 3;
+    }
+}

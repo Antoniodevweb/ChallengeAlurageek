@@ -22,3 +22,17 @@
 .header__navigation--bttn:hover{
     background: var(--color-blue);
 }
+
+@media (max-width: 768px) {
+	.header__navigation--bttn{
+        right: 274px;
+        width: 43px;
+        height: 43px;
+        top: 15px;
+    }
+
+    .header__navigation--bttn i{
+        font-size: 20px;
+        line-height: 44px;
+    }
+  }

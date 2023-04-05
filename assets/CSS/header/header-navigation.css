@@ -9,3 +9,18 @@
 .header__navigation:hover i{
 	transform: rotate(-360deg);
 }
+
+
+@media (max-width: 768px) {
+	.header__navigation input {
+		width: 220px;
+	}
+
+	.header__navigation:hover input {
+		width: 220px;
+	}
+
+	.header__navigation:hover i{
+		transform: rotate(0deg);
+	}
+  }
