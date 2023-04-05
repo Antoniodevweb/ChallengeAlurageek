@@ -14,7 +14,7 @@
 
 .header__navigation--bttn i{
     font-size: 25px;
-    color: white;
+    color:  var(--origin-white);
     line-height: 54px;
     transition: all .7s ease;
 }
@@ -35,4 +35,20 @@
         font-size: 20px;
         line-height: 44px;
     }
+  }
+
+  @media (min-width: 1024px) {
+	.header__navigation--bttn{
+        right: 690px;
+        width: 40px;
+        height: 40px;
+        top: 37px;
+    }
+
+    .header__navigation--bttn i{
+        font-size: 20px;
+        line-height: 44px;
+    }
+
+
   }

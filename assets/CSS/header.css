@@ -23,3 +23,16 @@
         order: 3;
     }
 }
+
+@media screen and (min-width: 1024px){
+    .header__container{
+        width: 1136px;
+        height: 115px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header{
+        height: 0%;
+    }
+}
