@@ -1,4 +1,4 @@
-.header__navigation--bar{
+.header{
     width: 100vw;
     height: 72px;
     display: flex;
@@ -6,7 +6,7 @@
 
 }
 
-.header__navigation--container{
+.header__container{
     width: 100vw;
     height: 72px;
     display: flex;

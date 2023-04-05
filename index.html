@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/ad5d32b8ab.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/CSS/header.css">
     <link rel="stylesheet" href="/assets/CSS/header/header-logo.css">
     <link rel="stylesheet" href="/assets/CSS/header/header-bttn.css">
     <link rel="stylesheet" href="/assets/CSS/header/header-icon.css">
+    <link rel="stylesheet" href="/assets/CSS/header/header-navigation.css">
+    <link rel="stylesheet" href="/assets/CSS/header/header-navigation-bar.css">
+    <link rel="stylesheet" href="/assets/CSS/header/header-navigation-bttn.css">
     <link rel="stylesheet" href="/assets/CSS/reset.css">
     <link rel="stylesheet" href="/assets/CSS/content.css">
     <link rel="stylesheet" href="/assets/CSS/banner.css">
@@ -37,15 +40,23 @@
     <link rel="stylesheet" href="/assets/CSS/contact/contact-text.css">
     <link rel="stylesheet" href="/assets/CSS/contact/contact-label.css">
     <link rel="stylesheet" href="/assets/CSS/contact.css">
+    <link rel="stylesheet" href="/assets/CSS/contact/contact-form-list.css">
+    <link rel="stylesheet" href="/assets/CSS/contact/contact-links.css">
+    <link rel="stylesheet" href="/assets/CSS/copyright.css">
     
     <title>Alurageek - Home</title>
 </head>
 <body>
-    <header class="header__navigation--bar">
-        <div class="header__navigation--container">
+    <header class="header">
+        <div class="header__container">
             <h2><img src="/assets/img/Logo.png" alt="logo alurageek" class="logo__alurageek"></h2>
-            <input type="button" value="Login" class="header__navigation--bttn">
-            <i class="fa-solid fa-magnifying-glass"></i>
+            <input class="header__bttn" type="button" value="Login">
+            <div class="header__navigation">
+                <input class="header__navigation--bar" type="text" placeholder="Buscar">
+                <div class="header__navigation--bttn">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
         </div>     
     </header>
     <main>
@@ -253,34 +264,38 @@
         </div>
         <form class="contact__form">
             <div class="contact__form-container">
-                <img src="/assets/img/Logo.png" alt="logo__alurageek">
-                <ul class="links__list">
-                    <li><a href="#" class="links">Quienes somos</a></li>
-                    <li><a href="#" class="links">Politica de privacidad</a></li>
-                    <li><a href="#" class="links">Programa de fidelidad</a></li>
-                    <li><a href="#" class="links">Nuestras tiendas</a></li>
-                    <li><a href="#" class="links">Quiero ser franquiciado</a></li>
-                    <li><a href="#" class="links">Anuncie aqui</a></li>
-                </ul>
-                <img src="img/img-phone-contact.png" alt="Phone img" class="contact__form-img">
-                <div class="contact__box">
-                    <h2 class="form__title">Hable con nosotros</h2>
-                    <input class="contact__items" type="text" name="" id="textName">
-                    <label for="textName" class="contact__label">
-                    <span class="contact__span">Nombre</span>
-                    </label>
+                <div class="contact__box--container-1">
+                    <img class="contact__form--logo" src="/assets/img/Logo.png" alt="logo__alurageek">
+                    <ul class="contact__form--list">
+                        <li><a href="#" class="links">Quienes somos</a></li>
+                        <li><a href="#" class="links">Politica de privacidad</a></li>
+                        <li><a href="#" class="links">Programa de fidelidad</a></li>
+                        <li><a href="#" class="links">Nuestras tiendas</a></li>
+                        <li><a href="#" class="links">Quiero ser franquiciado</a></li>
+                        <li><a href="#" class="links">Anuncie aqui</a></li>
+                    </ul>
                 </div>
-                <div class="contact__box">
-                    <textarea class="contact__textarea" name="" cols="30" rows="10" id="textArea">
-                    </textarea>
-                    <label for="textArea" class="contact__label-textArea">Mensaje</label>
+                <div class="contact__box--container-2">
+                    <h2 class="form__title">Hable con nosotros</h2>
+                    <div class="contact__box">
+                        <input class="contact__items" type="text" name="" id="textName">
+                        <label for="textName" class="contact__label">
+                        <span class="contact__span">Nombre</span>
+                        </label>
+                    </div>
+                    <div class="contact__box">
+                        <textarea class="contact__textarea" name="" cols="30" rows="10" id="textArea">
+                        </textarea>
+                        <label for="textArea" class="contact__label-textArea">Mensaje</label>
+                    </div>
+                    <input class="contact__input-submit" type="submit" value="Enviar Mensaje">
                 </div>
             </div>
         </form>
     </section>
     </main>
     <footer>
-        <h1>hola soy footer</h1>
+        <h1 class="copyright__title">Desarrollado por Antonio Enrique Pérez Fajardo 2023</h1>
     </footer>
     <script type="module" src="script.js"></script>
 </body>

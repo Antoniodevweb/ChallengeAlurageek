@@ -1,0 +1,6 @@
+.links{
+    text-decoration: none;
+    color: var(--base-color-font);
+    font-family: var(--base-font);
+    font-weight: 500;
+}

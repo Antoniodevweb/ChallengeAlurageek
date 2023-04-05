@@ -12,6 +12,12 @@
     margin-bottom: 1rem;
 }
 
+.form__title{
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-family: var(--base-font);
+}
+
 .contact__text{
     font-family: var(--base-font);
     font-style: normal;

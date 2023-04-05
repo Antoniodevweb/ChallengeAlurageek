@@ -1,0 +1,11 @@
+.header__navigation{
+	padding: 10px;
+}
+
+.header__navigation:hover input {
+	width: 120px;
+}
+
+.header__navigation:hover i{
+	transform: rotate(-360deg);
+}

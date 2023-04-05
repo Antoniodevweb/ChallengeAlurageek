@@ -1,11 +1,8 @@
-.contact__form{
+.contact__form--list{
     width: 100%;
-    background: var(--grey);
+    height: 12.125rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.contact__form-img{
-    display: none;
+    justify-content: space-around;
 }
