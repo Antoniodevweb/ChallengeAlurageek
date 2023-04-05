@@ -23,7 +23,7 @@
     background: var(--color-blue);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 	.header__navigation--bttn{
         right: 274px;
         width: 43px;

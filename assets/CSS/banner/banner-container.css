@@ -6,3 +6,10 @@
     justify-content: flex-end;
     margin-bottom: 1rem;
 }
+
+@media screen and (min-width: 768px) {
+    .banner__container{
+        width: 704px;
+        height: 159px;
+    }    
+}
