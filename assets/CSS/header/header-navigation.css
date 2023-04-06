@@ -23,6 +23,10 @@
 	.header__navigation:hover i{
 		transform: rotate(0deg);
 	}
+
+	.header__navigation{
+		display: flex;
+	}
   }
 
   @media (min-width: 1024px) {
@@ -36,5 +40,9 @@
 
 	.header__navigation:hover i{
 		transform: rotate(0deg);
+	}
+
+	.header__navigation{
+		display: flex;
 	}
   }

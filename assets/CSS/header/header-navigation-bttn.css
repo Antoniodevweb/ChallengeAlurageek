@@ -35,6 +35,11 @@
         font-size: 20px;
         line-height: 44px;
     }
+
+    .header__navigation--bttn{
+        line-height: 0%;
+        position: static;
+    }
   }
 
   @media (min-width: 1024px) {
@@ -49,6 +54,10 @@
         font-size: 20px;
         line-height: 44px;
     }
-
+    
+    .header__navigation--bttn{
+        line-height: 0%;
+        position: static;
+    }
 
   }
