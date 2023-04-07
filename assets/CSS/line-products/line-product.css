@@ -1,5 +1,4 @@
 .line__product{
-    width: 91vw;
     height: 692px;
     display: flex;
     flex-direction: column;
@@ -14,6 +13,6 @@
 
 @media screen and (min-width: 1024px) {
     .line__product{
-        width: 80vw;
+        align-items: center;
     }
 }

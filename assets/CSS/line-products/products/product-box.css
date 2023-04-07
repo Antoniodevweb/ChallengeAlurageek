@@ -3,5 +3,25 @@
     height: 301px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+#new-product{
+    display: none;
+}
+
+#new-product{
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+    #new-product{
+        display: initial;
+        width: 156px;
+        height: 301px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
 }
