@@ -15,3 +15,11 @@
         height: 352px;
     }    
 }
+
+@media screen and (min-width: 1024px) {
+    .banner{
+        background: url(/assets/img/bannerReal.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }    
+}

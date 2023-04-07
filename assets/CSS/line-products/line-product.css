@@ -11,3 +11,9 @@
         height: 0%;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .line__product{
+        width: 80vw;
+    }
+}
