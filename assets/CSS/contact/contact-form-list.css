@@ -12,3 +12,9 @@
         align-items: flex-start;
     }
 }
+
+@media  screen and (min-width: 1024px) {
+    .contact__form--list{
+        width: initial;
+    }
+}
