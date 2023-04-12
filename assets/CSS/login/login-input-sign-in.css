@@ -17,3 +17,16 @@
     border: 1px solid var(--color-blue);
     background: var(--color-blue);
 }
+
+@media  screen and (min-width: 1024px) {
+    .login__items{
+        width: 423px;
+        height: 63.13px;
+    }
+    
+    .login__input-sign-in{
+        width: 423px;
+        height: 62px;
+        font-size: 1rem;
+    }
+}
