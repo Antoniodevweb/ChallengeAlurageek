@@ -1,0 +1,21 @@
+.header__login--navigation--bar{
+    outline: none;
+    box-sizing: border-box;
+    height: 39px;
+    width: 0px;
+    padding: 0 7px;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 1px solid var(--color-blue);
+    transition: all .7s ease;
+}
+
+::placeholder{
+    color: var(--grey-50);
+}
+
+@media screen and (min-width: 1024px){
+    .header__login--navigation--bar{
+        margin-left: -273px;
+    }
+}

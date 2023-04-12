@@ -1,0 +1,13 @@
+.login{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 76vh;
+    background: var(--grey-white);
+}
+
+@media screen and (min-width:768px){
+    .login{
+        height: 50vh;
+    }
+}

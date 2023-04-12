@@ -1,0 +1,19 @@
+.login__items{
+    display: block;
+    margin-bottom: 2rem;
+    border: none;
+    outline: 0px;
+    border-bottom: 1px solid var(--grey-50);
+    width: 296px;
+    height: 49px;
+}
+.login__input-sign-in{
+    width: 109px;
+    height: 40px;
+
+    margin-bottom: 1rem;
+    color: var(--origin-white);
+    outline: 0;
+    border: 1px solid var(--color-blue);
+    background: var(--color-blue);
+}

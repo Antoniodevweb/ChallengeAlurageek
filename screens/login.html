@@ -7,39 +7,65 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/CSS/reset.css">
     <link rel="stylesheet" href="/assets/CSS/content.css">
-    <link rel="stylesheet" href="/assets/CSS/header.css">
-    <link rel="stylesheet" href="/assets/CSS/header/header-icon.css">
-    <link rel="stylesheet" href="/assets/CSS/header/header-logo.css">
-    <link rel="stylesheet" href="/assets/CSS/header/header-navigation-bar.css">
-    <link rel="stylesheet" href="/assets/CSS/header/header-navigation-bttn.css">
-    <link rel="stylesheet" href="/assets/CSS/header/header-navigation.css">
+    <link rel="stylesheet" href="/assets/CSS/header-login.css">
+    <link rel="stylesheet" href="/assets/CSS/header-login/header-login-icon.css">
+    <link rel="stylesheet" href="/assets/CSS/header-login/header-login-logo.css">
+    <link rel="stylesheet" href="/assets/CSS/header-login/header-login-navigation.css">
+    <link rel="stylesheet" href="/assets/CSS/header-login/header-login-navigation-bar.css">
+    <link rel="stylesheet" href="/assets/CSS/header-login/header-login-navigation-bttn.css">
     <link rel="stylesheet" href="/assets/CSS/contact.css">
     <link rel="stylesheet" href="/assets/CSS/contact/contact-box.css">
     <link rel="stylesheet" href="/assets/CSS/contact/contact-form-container.css">
     <link rel="stylesheet" href="/assets/CSS/contact/contact-form-logo.css">
-    <link rel="stylesheet" href="/assets/CSS/contact/contact-form-container.css">
+    <link rel="stylesheet" href="/assets/CSS/contact/contact-form-list.css">
     <link rel="stylesheet" href="/assets/CSS/contact/contact-input.css">  
     <link rel="stylesheet" href="/assets/CSS/contact/contact-input-container.css">
     <link rel="stylesheet" href="/assets/CSS/contact/contact-input-label-animation.css">
     <link rel="stylesheet" href="/assets/CSS/contact/contact-label.css">
     <link rel="stylesheet" href="/assets/CSS/contact/contact-links.css">
-    <link rel="stylesheet" href="/assets/CSS/contact/contact-text.css"> 
-    
-     
+    <link rel="stylesheet" href="/assets/CSS/contact/contact-text.css">
+    <link rel="stylesheet" href="/assets/CSS/login.css"> 
+    <link rel="stylesheet" href="/assets/CSS/login/login-container.css">
+    <link rel="stylesheet" href="/assets/CSS/login/login-item.css">
+    <link rel="stylesheet" href="/assets/CSS/login/login-box.css">
+    <link rel="stylesheet" href="/assets/CSS/login/login-input-animation-label.css">
+    <link rel="stylesheet" href="/assets/CSS/login/login-input-sign-in.css">
+    <link rel="stylesheet" href="/assets/CSS/login/login-label.css">
+    <link rel="stylesheet" href="/assets/CSS/copyright.css">
+  
     <title>Alurageek - Login</title>
 </head>
 <body>
-    <header class="header">
-        <div class="header__container">
-            <h2><img src="/assets/img/Logo.png" alt="logo alurageek" class="logo__alurageek"></h2>
-            <div class="header__navigation">
-                <input class="header__navigation--bar" type="text" placeholder="Buscar">
-                <div class="header__navigation--bttn">
+    <header class="header__login">
+        <div class="header__login--container">
+            <h2><img src="/assets/img/Logo.png" alt="logo alurageek" class="logo__login--alurageek"></h2>
+            <div class="header__login--navigation">
+                <input class="header__login--navigation--bar" type="text" placeholder="Buscar">
+                <div class="header__login--navigation-bttn">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
         </div>     
     </header>
+    <main>
+        <div class="login">
+            <div class="login__container">
+                <div class="login__box">
+                    <input class="login__items" type="email" name="e-mail" id="e-mail">
+                    <label for="e-mail" class="login__label">
+                    <span class="login__span">Ingresa tu correo electronico</span>
+                    </label>
+                </div>
+                <div class="login__box">
+                    <input class="login__items" type="password" name="password" id="password">
+                    <label for="password" class="login__label">
+                    <span class="login__span">Ingresa tu contraseña</span>
+                    </label>
+                </div>
+                <input class="login__input-sign-in" type="button" value="Entrar">
+            </div>
+        </div> 
+    </main>
     <form class="contact__form">
         <div class="contact__form-container">
             <div class="contact__box--container-1">
@@ -70,6 +96,9 @@
             </div>
         </div>
     </form>
+    <footer>
+        <h1 class="copyright__title">Desarrollado por Antonio Enrique Pérez Fajardo 2023</h1>
+    </footer>
     <script src="https://kit.fontawesome.com/ad5d32b8ab.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,11 @@
+.logo__login--alurageek{
+    width: 100px;
+    height: 28px;
+}
+
+@media screen and (min-width: 1024px){
+    .logo__login--alurageek{
+        width: 176px;
+        height: 50px;
+    }
+}

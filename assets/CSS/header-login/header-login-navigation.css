@@ -1,0 +1,48 @@
+.header__login--navigation{
+	padding: 10px;
+}
+
+.header__login--navigation:hover input {
+	width: 120px;
+}
+
+.header__login--navigation:hover i{
+	transform: rotate(-360deg);
+}
+
+
+@media (min-width:768px) {
+	.header__login--navigation input {
+		width: 220px;
+	}
+
+	.header__login--navigation:hover input {
+		width: 220px;
+	}
+
+	.header__login--navigation:hover i{
+		transform: rotate(0deg);
+	}
+
+	.header__login--navigation{
+		display: flex;
+	}
+  }
+
+  @media (min-width: 1024px) {
+	.header__login--navigation input {
+		width: 441px;
+	}
+
+	.header__login--navigation:hover input {
+		width: 441px;
+	}
+
+	.header__login--navigation:hover i{
+		transform: rotate(0deg);
+	}
+
+	.header__login--navigation{
+		display: flex;
+	}
+  }

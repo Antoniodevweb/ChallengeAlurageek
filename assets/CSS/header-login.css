@@ -1,0 +1,29 @@
+.header__login{
+    width: 100vw;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.header__login--container{
+    width: 100vw;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 1024px){
+    .header__login--container{
+        width: 1136px;
+        height: 115px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header__login{
+        height: 0%;
+    }
+}
