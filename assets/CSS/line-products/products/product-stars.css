@@ -1,3 +1,12 @@
 .product__stars--container{
     display: flex;
+    gap: 0.6rem;
+    color: var(--grey-50);
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: color 0.2s ease-in;
+}
+
+.product__stars--container  i.active{
+    color: var(--star-active);
 }
