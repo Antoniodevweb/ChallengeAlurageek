@@ -355,14 +355,13 @@
                 <div class="contact__box--container-2">
                     <h2 class="form__title">Hable con nosotros</h2>
                     <div class="contact__box">
-                        <input class="contact__items" type="text" name="" id="textName">
+                        <input class="contact__items" type="text" name="" id="textName" required minlength="5">
                         <label for="textName" class="contact__label">
                         <span class="contact__span">Nombre</span>
                         </label>
                     </div>
                     <div class="contact__box">
-                        <textarea class="contact__textarea" name="" cols="30" rows="10" id="textArea">
-                        </textarea>
+                        <textarea class="contact__textarea" name="textArea" cols="30" rows="10" id="textArea" maxlength="220"></textarea>
                         <label for="textArea" class="contact__label-textArea">Mensaje</label>
                     </div>
                     <input class="contact__input-submit" type="submit" value="Enviar Mensaje">
