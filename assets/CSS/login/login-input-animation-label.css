@@ -1,9 +1,8 @@
-.login__items:focus+.login__label{
+.login__items:focus+.login__label, .login__items:valid+.login__label{
     transform: translateY(-1rem);
     transition: .5s;
     font-size: 13px;
     color: var(--color-blue);
-   
 }
 
 .login__items:focus{

@@ -24,7 +24,8 @@
     <link rel="stylesheet" href="/assets/CSS/contact/contact-label.css">
     <link rel="stylesheet" href="/assets/CSS/contact/contact-links.css">
     <link rel="stylesheet" href="/assets/CSS/contact/contact-text.css">
-    <link rel="stylesheet" href="/assets/CSS/login.css"> 
+    <link rel="stylesheet" href="/assets/CSS/login.css">
+    <link rel="stylesheet" href="/assets/CSS/login/login-form.css">
     <link rel="stylesheet" href="/assets/CSS/login/login-container.css">
     <link rel="stylesheet" href="/assets/CSS/login/login-item.css">
     <link rel="stylesheet" href="/assets/CSS/login/login-box.css">
@@ -49,21 +50,23 @@
     </header>
     <main>
         <div class="login">
-            <div class="login__container">
-                <div class="login__box">
-                    <input class="login__items" type="email" name="e-mail" id="e-mail">
-                    <label for="e-mail" class="login__label">
-                    <span class="login__span">Ingresa tu correo electronico</span>
-                    </label>
+            <form action="" method="get" class="login__form">
+                <div class="login__container">
+                    <div class="login__box">
+                        <input class="login__items" type="email" name="e-mail" id="e-mail">
+                        <label for="e-mail" class="login__label">
+                        <span class="login__span">Ingresa tu correo electronico</span>
+                        </label>
+                    </div>
+                    <div class="login__box">
+                        <input class="login__items" type="password" name="password" id="password" required>
+                        <label for="password" class="login__label">
+                        <span class="login__span">Ingresa tu contraseña</span>
+                        </label>
+                    </div>
+                    <input class="login__input-sign-in" type="submit" value="Entrar">
                 </div>
-                <div class="login__box">
-                    <input class="login__items" type="password" name="password" id="password">
-                    <label for="password" class="login__label">
-                    <span class="login__span">Ingresa tu contraseña</span>
-                    </label>
-                </div>
-                <input class="login__input-sign-in" type="button" value="Entrar">
-            </div>
+            </form>
         </div> 
     </main>
     <form class="contact__form">
@@ -82,14 +85,13 @@
             <div class="contact__box--container-2">
                 <h2 class="form__title">Hable con nosotros</h2>
                 <div class="contact__box">
-                    <input class="contact__items" type="text" name="" id="textName">
+                    <input class="contact__items" type="text" name="" id="textName" required minlength="5">
                     <label for="textName" class="contact__label">
                     <span class="contact__span">Nombre</span>
                     </label>
                 </div>
                 <div class="contact__box">
-                    <textarea class="contact__textarea" name="" cols="30" rows="10" id="textArea">
-                    </textarea>
+                    <textarea class="contact__textarea" name="" cols="30" rows="10" id="textArea"></textarea>
                     <label for="textArea" class="contact__label-textArea">Mensaje</label>
                 </div>
                 <input class="contact__input-submit" type="submit" value="Enviar Mensaje">
