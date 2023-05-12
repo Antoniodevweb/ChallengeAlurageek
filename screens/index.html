@@ -66,7 +66,7 @@
                 <a href="#" class="banner_bttn" >Ver promociones</a>
             </div>
         </div>
-        <div class="line__product">
+        <div class="line__product" id="starwars__container">
             <div class="line__top--container">
                 <h2 class="line__top--title">Star Wars</h2>
                 <div class="line__top--container-link">
@@ -74,22 +74,7 @@
                     <i class="fas fa-arrow-right"></i>
                 </div>
             </div>
-            <div class="product__container">
-                <div class="product__box" id="producto-001">
-                    <div class="product__img--container">
-                        <img class="product__img" src="/assets/img/mandalorian-grogu-armor.jpg" alt="grogu-cute">
-                    </div>
-                    <h2 class="product__title">Grogu</h2>
-                    <h6 class="product__price">1000000 MXN</h6>
-                    <ul class="product__stars--container">
-                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
-                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
-                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
-                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
-                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
-                    </ul>
-                    <a class="product__link" href="#">Ver producto</a>
-                </div>
+            <div class="product__container" data-product>
                 <div class="product__box" id="producto-002" >
                     <img class="product__img" src="/assets/img/lego-darth-vader-hover.jpg" alt="lego-darth-vader">
                     <h2 class="product__title">Darth Vader</h2>
@@ -157,7 +142,7 @@
                 </div>
             </div>
         </div>
-        <div class="line__product">
+        <div class="line__product" id="consolas__container">
             <div class="line__top--container">
                 <h2 class="line__top--title">Consolas</h2>
                 <div class="line__top--container-link">
@@ -248,7 +233,7 @@
                 </div>
             </div>
         </div>
-        <div class="line__product">
+        <div class="line__product" id="diversos__container">
             <div class="line__top--container">
                 <h2 class="line__top--title">Diversos</h2>
                 <div class="line__top--container-link">
@@ -375,6 +360,7 @@
     </footer>
     <script src="https://kit.fontawesome.com/ad5d32b8ab.js" crossorigin="anonymous"></script>
     <script type="module" src="/script.js" defer></script>
+    <script type="module" src="../service/client-service.js" defer></script>
 </body>
 </html>
 <!-- Título de su sitio web - listo
