@@ -1,18 +1,11 @@
-const crearNuevaLinea = (titulo, precio) =>{
+const crearNuevaLinea = (titulo, precio,img,alt,id) =>{
     const linea = document.createElement("div");
-    const contenido = `<div class="product__box" id="producto-001">
+    const contenido = `<div class="product__box" id="${id}">
                     <div class="product__img--container">
-                        <img class="product__img" src="/assets/img/mandalorian-grogu-armor.jpg" alt="grogu-cute">
+                        <img class="product__img" src="${img}" alt="${alt}">
                     </div>
                     <h2 class="product__title">${titulo}</h2>
                     <h6 class="product__price">${precio}</h6>
-                    <ul class="product__stars--container">
-                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
-                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
-                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
-                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
-                        <li class="product__stars"><i class="fa fa-star checked"></i></li>
-                    </ul>
                     <a class="product__link" href="#">Ver producto</a>
                 </div>`
                 linea.innerHTML = contenido;
@@ -39,7 +32,7 @@ http.send();
 http.onload = () => {
     const data = JSON.parse(http.response);
     data.forEach((Menu) =>  {
-       const  nuevaLinea = crearNuevaLinea(Menu.titulo, Menu.precio);
+       const  nuevaLinea = crearNuevaLinea(Menu.titulo, Menu.precio,Menu.img,Menu.alt,Menu.id);
        product.appendChild(nuevaLinea);
     });
 };

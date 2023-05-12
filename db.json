@@ -3,7 +3,49 @@
         {
             "titulo" : "Grogu",
             "precio" : "1000000 MXN",
-            "stars" : 3,
+            "img" : "/assets/img/mandalorian-grogu-armor.jpg",
+            "alt": "grogu-cute",
+            "id": "producto-001",
+            "token" : 1
+        },
+        {
+            "titulo" : "Darth Vader",
+            "precio" : "300 MXN",
+            "img" : "/assets/img/lego-darth-vader-hover.jpg",
+            "alt": "lego-darth-vader",
+            "id": "producto-002",
+            "token" : 1
+        },
+        {
+            "titulo" : "Mandalorian",
+            "precio" : "600 MXN",
+            "img" : "/assets/img/mandalorian-helmet-hover.jpg",
+            "alt": "Mandalorian",
+            "id": "producto-003",
+            "token" : 1
+        },
+        {
+            "titulo" : "Grogu Hasbro",
+            "precio" : "300 MXN",
+            "img" : "/assets/img/grogu-hasbro-img-hover.jpg",
+            "alt": "grogu-hasbro",
+            "id": "producto-004",
+            "token" : 1
+        },
+        {
+            "titulo" : "Grogu Peluche",
+            "precio" : "310 MXN",
+            "img" : "/assets/img/producto-0005.png",
+            "alt": "grogu-peluche",
+            "id": "new-product",
+            "token" : 1
+        },
+        {
+            "titulo" : "Darth Vader",
+            "precio" : "3210 MXN",
+            "img" : "/assets/img/producto-0006.png",
+            "alt": "Darth Vader",
+            "id": "new-product",
             "token" : 1
         }
     ]
