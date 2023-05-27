@@ -1,3 +1,4 @@
+
 const crearNuevaLinea = (titulo, precio,img,alt,id) =>{
     const linea = document.createElement("div");
     const contenido = `<div class="product__box" id="${id}">
@@ -12,8 +13,8 @@ const crearNuevaLinea = (titulo, precio,img,alt,id) =>{
                 return linea;
 };
 
-const product = document.querySelector("[data-product]");
-
+const productStar = document.querySelector("[data-product-star-wars]");
+const productConsoles = document.querySelector("[data-product-consolas]");
 
 const http =  new XMLHttpRequest();
 
@@ -25,14 +26,20 @@ const http =  new XMLHttpRequest();
 //READ - GET
 //UPDATE - PUT/PATCH
 //DELETE - Delete
-http.open("GET", "http://localhost:3000/Menu")
+http.open("GET", "http://localhost:3000/products")
 
 http.send();
 
 http.onload = () => {
     const data = JSON.parse(http.response);
-    data.forEach((Menu) =>  {
-       const  nuevaLinea = crearNuevaLinea(Menu.titulo, Menu.precio,Menu.img,Menu.alt,Menu.id);
-       product.appendChild(nuevaLinea);
+    console.log(data);
+    data.forEach((products) =>  {
+       const  nuevaLinea = crearNuevaLinea(products.titulo, products.precio,products.img,products.alt,products.id);
+       if(products <= [4]){
+        productStar.appendChild(nuevaLinea);
+       }if(products > [4]){
+        productConsoles.appendChild(nuevaLinea);
+       }
+       
     });
 };
